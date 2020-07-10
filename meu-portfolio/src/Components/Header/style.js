@@ -9,6 +9,7 @@ export const Wrapper = styled.header`
   align-content: center;
   padding: 19px 32px;
   position: fixed;
+  top: 0;
   background-color: #ffffff;
 
   @media screen and (max-width: 930px) {
