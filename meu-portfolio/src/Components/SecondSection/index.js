@@ -1,6 +1,7 @@
 import React from "react";
 import * as S from "./style";
 import Notebook from "../../assets/notebook.png";
+import Curriculo from "../../assets/Currículo.pdf";
 
 
 
@@ -10,6 +11,10 @@ const SecondSection = () => {
     "Git e GitHub", "HTML5", "CSS", "JavaScript", "React", "Redux",
     "TypeScript", "Node", "Express", "Jest", "MySQL", "AWS", "Firebase"
   ];
+
+  const cvDownload = () => {
+    window.open(Curriculo);
+  }
 
   return (
     <S.Section id="quem-sou-eu">
@@ -27,7 +32,7 @@ const SecondSection = () => {
           })}
         </S.ListSkills>
         <div>
-          <S.Button>CV em PDF</S.Button>
+          <S.Button onClick={cvDownload}>CV em PDF</S.Button>
         </div>
       </S.Content>
       <S.Img src={Notebook} />
