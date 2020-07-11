@@ -3,12 +3,16 @@ import ReactDOM from 'react-dom';
 import App from './Containers/App';
 import * as serviceWorker from './serviceWorker';
 import GlobalStyle from './styles/global';
+import { HelmetProvider } from 'react-helmet-async';
 
 ReactDOM.render(
+  <HelmetProvider>
   <React.StrictMode>
     <GlobalStyle />
     <App />
-  </React.StrictMode>,
+  </React.StrictMode>
+  </HelmetProvider>
+  ,
   document.getElementById('root')
 );
 
