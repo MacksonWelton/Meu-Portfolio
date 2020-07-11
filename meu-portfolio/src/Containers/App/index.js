@@ -8,6 +8,7 @@ import FourthSection from '../../Components/FourthSection';
 import FifthSection from '../../Components/FifthSection';
 import SixthSection from '../../Components/SixthSection';
 import Footer from '../../Components/Footer';
+import Head from '../../Components/Head';
 
 const Main = styled.main`
   display: flex;
@@ -18,6 +19,13 @@ const Main = styled.main`
 const App = () => {
   return (
     <div>
+      <Head 
+      title="Mackson Welton - Desenvolvedor Web Full Stack" 
+      description="Desenvolvimento de sites e sistemas web utilizando tecnologias modernas, como: HTML5, CSS3, JavaScript, 
+      React, Redux, TypeScript, Node, Express, MySQL, AWS e Firebase."
+      keywords="Programador WEB, Desenvolvedor WEB, HTML, CSS, JavaScript, React, Node, TypeScript"
+      author="Mackson Welton Dias da Silva"
+      />
       <Header/>
       <Main>
         <FirstSection/>
