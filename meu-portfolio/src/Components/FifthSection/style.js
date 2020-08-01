@@ -123,7 +123,6 @@ export const Img = styled.img`
 `;
 
 export const Text = styled.p`
-  height: 100px;
   margin-bottom: 20px;
   font-size: 15px;
   font-weight: normal;
