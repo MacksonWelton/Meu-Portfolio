@@ -41,8 +41,9 @@ const FifthSection = () => {
         <S.TitleContent>Spotenu</S.TitleContent>
         <S.SubtitleContent>Full Stack</S.SubtitleContent>
         <S.Text>
-          Projeto consiste em uma aplicação de músicas similar ao Spotify no qual existem quatro tipos de usuários: Administradores,
-          músicos, ouvintes pagante e ouvintes não pagante.
+          Projeto consiste em uma aplicação de música na qual é possível se cadastrar como ouvinte gratuito, pagante ou 
+          banda e ter acesso a recursos, como ouvir músicas, pesquisar músicas, criar playlists e torná-las colaborativas, 
+          criar albums, adicionar gêneros musicais e muito mais.
         </S.Text>
         <S.BoxButtons>
           <S.Button onClick={() => openGithub("frontend-spotenu")}>front-end GitHub</S.Button>
